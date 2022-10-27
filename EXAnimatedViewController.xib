@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20037"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DCMSAnimatedCoachmarkViewController">
+            <connections>
+                <outlet property="videoContainerView" destination="OFb-cd-ilZ" id="YgE-xu-fgU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2vj-Zr-WR5">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="300"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OFb-cd-ilZ">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="OFb-cd-ilZ" secondAttribute="trailing" id="6Qu-FC-gzu"/>
+                        <constraint firstAttribute="trailing" secondItem="OFb-cd-ilZ" secondAttribute="trailing" id="LXh-Ib-BkO"/>
+                        <constraint firstAttribute="trailing" secondItem="OFb-cd-ilZ" secondAttribute="trailing" id="OTh-Lx-9jP"/>
+                        <constraint firstItem="OFb-cd-ilZ" firstAttribute="top" secondItem="2vj-Zr-WR5" secondAttribute="top" id="Wja-3C-hDW"/>
+                        <constraint firstItem="OFb-cd-ilZ" firstAttribute="leading" secondItem="2vj-Zr-WR5" secondAttribute="leading" id="Y4O-aa-CE6"/>
+                        <constraint firstAttribute="bottom" secondItem="OFb-cd-ilZ" secondAttribute="bottom" id="adY-wd-pvI"/>
+                        <constraint firstAttribute="width" constant="240" id="c1T-jA-k4S"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="2vj-Zr-WR5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="6gZ-Hj-A7L"/>
+                <constraint firstAttribute="bottom" secondItem="2vj-Zr-WR5" secondAttribute="bottom" id="EQQ-js-cYf"/>
+                <constraint firstItem="2vj-Zr-WR5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iYD-ns-9yj"/>
+                <constraint firstAttribute="trailing" secondItem="2vj-Zr-WR5" secondAttribute="trailing" id="u5D-v1-TmC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="169.56521739130437" y="127.90178571428571"/>
+        </view>
+    </objects>
+</document>
